@@ -1,4 +1,4 @@
-# My Dev Diary
+# Anthony Grummett - My Dev Diary
 
 ## C++ -
 ### 19/10/2023 - Hello World
