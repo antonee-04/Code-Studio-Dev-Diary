@@ -1,11 +1,10 @@
-# Code-Studio-Dev-Diary
-Dev Diary for my code studio module at university
 C++ -
 My First attempts with C++ were kept pretty basic but having used C# before i was fairly confident in the aspects of coding. I still decided to keep it basic for now as I figured it would be conducive to learning the differences between C# and C++ along with refreshing myself with programming before I took on a larger task.
 
 19/10/2023 - Hello World
 
 
-The first step for any programmer is ‚ÄúHello World!‚Äù so I decided to attempt the simple code seeing as it is my first step into C++. I was able to figure out the basic syntax for a simple program using examples of C++ docs. The differences with C# that I immediately noticed were the use of ‚Äúcout‚Äù instead of ‚Äúconsole.writeline‚Äù which I feel is a lot easier when it comes to typing. One thing that did confuse me was ‚Äúusing namespace std;‚Äù along with ‚Äúinclude <iostream>‚Äù as in c# the code would be as simple as ‚Äúconsole.writeline(‚ÄúHello world‚Äù/n);‚Äù without any namespaces or the iostream. I did research on these and found that iostream integrates input and output and std allows for the use of standard functions and types. 
+The first step for any programmer is ìHello World!î so I decided to attempt the simple code seeing as it is my first step into C++. I was able to figure out the basic syntax for a simple program using examples of C++ docs. The differences with C# that I immediately noticed were the use of ìcoutî instead of ìconsole.writelineî which I feel is a lot easier when it comes to typing. One thing that did confuse me was ìusing namespace std;î along with ìinclude <iostream>î as in c# the code would be as simple as ìconsole.writeline(ìHello worldî/n);î without any namespaces or the iostream. I did research on these and found that iostream integrates input and output and std allows for the use of standard functions and types.†
 
-Aside from that this was fairly straightforward and was a good start to my coding journey for the future though it was only a ‚Äúhello world!‚Äù program.
+Aside from that this was fairly straightforward and was a good start to my coding journey for the future though it was only a ìhello world!î program.
+
