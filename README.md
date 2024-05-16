@@ -11,3 +11,10 @@ The first step for any programmer is "Hello World!" so I decided to attempt the 
 
 Aside from that this was fairly straightforward and was a good start to my coding journey for the future though it was only a “hello world!” program.
 
+### 24/10/2023 - Messing with functions
+![script to print image](/Screenshots/cowboys.png?raw=true)
+
+
+For my next step in figuring out the basics of C++ I decided to create a simple text based game scene using functions, random number generation and a for loop. The random number generation was something i found particularly difficult as it differed from C# a lot and required me to use the ‘#include <time.h>’ which I had to look up, however once I looked it up it wasn’t difficult to understand and was similar to ‘import random’. A lot of the code here is similar to what I was used to in C# which gave me quite the advantage when it came to creating things like functions and using for loops and if statements, the only issue I really faced was trying to use the functions, I didn’t realise the function code had to be above the calling of the function for it to work and this stumped me for quite some time until I realised it. 
+
+I think I am ready to move onto creating something a lot more advanced in C++ based on the ease I am having with the basics, thanks to my knowledge of C#. The only problems I am facing are simple syntax problems and once I overcome those the logic I already know seems to be enough. 
