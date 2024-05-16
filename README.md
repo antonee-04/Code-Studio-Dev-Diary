@@ -1,10 +1,9 @@
 # My Dev Diary
 
 ## C++ -
-### Hello world
-My First attempts with C++ were kept pretty basic but having used C# before i was fairly confident in the aspects of coding. I still decided to keep it basic for now as I figured it would be conducive to learning the differences between C# and C++ along with refreshing myself with programming before I took on a larger task.
+### 19/10/2023 - Hello World
 
-19/10/2023 - Hello World
+My First attempts with C++ were kept pretty basic but having used C# before i was fairly confident in the aspects of coding. I still decided to keep it basic for now as I figured it would be conducive to learning the differences between C# and C++ along with refreshing myself with programming before I took on a larger task.
 
 ![script to print image](/Screenshots/Hello-World.png?raw=true)
 
