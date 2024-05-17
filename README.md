@@ -20,13 +20,19 @@ For my next step in figuring out the basics of C++ I decided to create a simple 
 I think I am ready to move onto creating something a lot more advanced in C++ based on the ease I am having with the basics, thanks to my knowledge of C#. The only problems I am facing are simple syntax problems and once I overcome those the logic I already know seems to be enough. 
 ## Starting on unreal - 
 
-### 26/11/2023 - Adding impulse to a hit object 
+### 26/11/2023 - creating a multi shot gun
 
 I decided to start with learning Unreal Engine, the whole thing is very new to me and I have very minimal experience in scripting so the next few days i’ll spend time working with blueprints using the knowledge that i already have with coding to help me and the tutorials provided for me to help me understand how to use them.
 
 ![script to print image](/Screenshots/multishot.png?raw=true)
 
 The first thing I was taught to do in unreal engine was how to modify the first person template, this was fairly straightforward as i just had to follow a tutorial however it did teach me a lot about how things work with unreal engine. I feel my prior knowledge of coding helped me to grasp what was going on with each node a lot better than if I went into this blind, I quickly realised using blueprints was very similar to coding in a sense that the logic is carried over. For example the for each loop node here works the exact same as in normal programming where it loops the code for however many iterations are specified, this allowed for me to modify the template so that multiple shots were fired at once from the gun. I do feel without tutorials to help me I would learn more, however, so in future I am going to attempt some work on my own and garner my own grasp on the blueprint code and the syntax.
+
+### 28/11/2023 - triggering multi shot
+
+
+Today I decided to work more on modifying the first person template. I created a trigger event for what I did last time. I worked completely on my own this time which proved to be more conducive to my learning just as I predicted.in my last entry. The thing that I think went well here was my knowledge of if statements as I figured there would be a way to use them in unreal engine which led me to finding the branch node, I used this in conjunction to a variable I created that checked whether or not the right mouse button was being clicked which is exactly the way I would have written it in normal code. The problem I faced with this was actually figuring out which blueprints to use as there is many to choose from and spending all my time searching through every single one would take forever so instead of doing that I did research on which blueprints would accomplish the tasks that I wanted such as searching for the existence of an if statement in Unreal Engine. Going forward I will keep working on learning more useful blueprints like the ‘Branch’ and I will try to develop the first person blueprint even more.
+
 
 ## Reflection - 17/5/2024
 
