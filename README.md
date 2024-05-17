@@ -66,6 +66,21 @@ The first thing I was taught to do in unreal engine was how to modify the first 
 
 Today I decided to work more on modifying the first person template. I created a trigger event for what I did last time. I worked completely on my own this time which proved to be more conducive to my learning just as I predicted.in my last entry. The thing that I think went well here was my knowledge of if statements as I figured there would be a way to use them in unreal engine which led me to finding the branch node, I used this in conjunction to a variable I created that checked whether or not the right mouse button was being clicked which is exactly the way I would have written it in normal code. The problem I faced with this was actually figuring out which blueprints to use as there is many to choose from and spending all my time searching through every single one would take forever so instead of doing that I did research on which blueprints would accomplish the tasks that I wanted such as searching for the existence of an if statement in Unreal Engine. Going forward I will keep working on learning more useful blueprints like the ‘Branch’ and I will try to develop the first person blueprint even more.
 
+## Unreal Project - 
+
+I haven’t written an entry for a while but I have improved a lot on my Unreal Engine coding and have created many projects using this knowledge particularly game jams for my Game Dev module. For this project, I started using the top down template provided by unreal. The code for this project is quite long so I’m simply going to focus on the new stuff I learnt rather than go over everything.
+
+### 5/5/2024 - Creating the enemies and their spawner
+
+
+Today I learnt how to get the enemy to chase the player, I learnt this using tutorials on the internet along with some of my own attempts at trying things. The way this works is fairly simple, the enemy sees the player and chases. The problem I faced here, however, was that the enemy would chase indefinitely making the player get bombarded by a million enemies so I added the delay which made it so the enemy would only chase for a single tick meaning that when the player was out of sight it would go back to free roam.  
+
+I have created a spawner before but I have never created one that spawned multiple types of enemy, I figured that I would need to create an enemy class containing the enemy types which proved to be fairly simple as there was a blueprint that did exactly that. I configured a random chance for either class and began spawning them!
+
+### 13/5/2024 - Teleport function
+
+Today I created a function that teleported the player back to the location that was stored before it was teleported away. I used a function for this as I needed to call it multiple times in different situations when it came to battling. I used casting here to allow for the use of variables in the ‘Character’ blueprint which let me use the ‘Location Before’ variable which stored what it said on the tin ready for me to teleport the player back. I did it this way because it let me keep the code short and simple and kept professional practice.
+
 
 ## Reflection - 17/5/2024
 
