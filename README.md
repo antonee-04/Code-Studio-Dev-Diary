@@ -18,6 +18,32 @@ Aside from that this was fairly straightforward and was a good start to my codin
 For my next step in figuring out the basics of C++ I decided to create a simple text based game scene using functions, random number generation and a for loop. The random number generation was something i found particularly difficult as it differed from C# a lot and required me to use the ‘#include <time.h>’ which I had to look up, however once I looked it up it wasn’t difficult to understand and was similar to ‘import random’. I used random number generation to give the player a percentage chance that they “die” when initiating the duel just to have another dialogue option..A lot of the code here is similar to what I was used to in C# which gave me quite the advantage when it came to creating things like functions and using for loops and if statements, the only issue I really faced was trying to use the functions, I didn’t realise the function code had to be above the calling of the function for it to work and this stumped me for quite some time until I realised it. The two functions I created are for firing the bullets and for initiating the duel dialogue. In my second if statement i called the main() function so that the dialogue would restart if the player didn’t type what was required, this was my simple fix just to keep things simple without needing to code more but in a real game i would make it so the player could retry input or add more trees or certain dialogue choices. 
 
 I think I am ready to move onto creating something a lot more advanced in C++ based on the ease I am having with the basics, thanks to my knowledge of C#. The only problems I am facing are simple syntax problems and once I overcome those the logic I already know seems to be enough. 
+
+## C++ Game - 
+I decided to try my hand at creating a simple board game in C++, I have done this many times before using C# and it should be quite straightforward considering what I know from C# seems to transition into C++ quite well, which is something i expected as they are both C based languages.
+
+### 24/11/2023 - using vectors to set up a board in a function
+
+
+
+Here I transferred my knowledge of arrays in C# to create vectors as they act similarly, however when researching which one was best to store numerical coordinates on a board the vectors seemed to be a better option. I taught myself how to create the variable for the vectors by surmising that it would be the same way an array variable is created in C# which proved to be correct! The printBoard was fairly simple, I designed it so that it would create a board using for loops, one for the row and one for the column and spaces, this way the board was created automatically at the sizing I wanted without me having to manually write the board myself, it also makes it easier to isolate the different squares when I end up doing things like placing the X’s and O’s and checking if the spaces are filled.  
+
+
+### 29/11/2023 - functions for playing the game
+
+Today I made the functions that made playing the game actually possible, I started with the function that allowed the player to pick if they were X or O, I decided on doing this instead of assigning a value to the player to add more interaction to the game, i used a simple if else statement that assigned the opposite value to the computer and asked again if the player input something silly. This was quite simple to implement and was quite easy to use in the later parts of the code where I needed it. 
+
+I then created the actual function to play the game, this simply takes in the numbers input and makes it so that the player symbol is placed in the corresponding slot on the board vector, this takes advantage of the way i created the board making it easier to code in general. I did, however, face a problem when coding the invalid line as I couldn't simply recall the function and restart as it would create an infinite loop where everything input became invalid even if it was valid so I, instead, opted to copy over the initial code which worked fine. 
+
+The computer opponent uses random numbers, which I learnt how to do a few weeks ago, to pick squares on the board between the dimensions of the board. In future I could create a more advanced computer that reacts to where the player places their symbol, however I would need to brush up more on my C++ knowledge for that. I chose to do it the way i did simply because I lack the knowledge to create a tougher opponent but it is still functional and works as a game. 
+
+
+### 3/12/23 - creating a win and tie event
+
+Today I finished off my game by creating the function for winning and the function for tying, the tie function simply checks if the board is filled by checking each square and if one or more is still empty it returns false. I faced an issue with this as, to begin with, I created a function where the tie would happen when the game exceeded a certain amount of tries but that ended up causing problems when the player would input something incorrectly and end the game early. 
+
+The checkWin function was fairly easy to implement, i simply coded a for loop to check each square and return true if there was a winner. I learnt that I could use player as a parameter which meant that I could code it so that whoever’s turn it was the ‘checkWin’ was checking for the corresponding symbol. I did this in conjunction with the ‘?’ operator which is essentially a short-hand for an if else statement that let me pass either ‘playerSymbol’ or ‘computerSymbol’ to the check when necessary. This was super useful as it let me perform the checks for each player without having to write code for checking the player and computer separately after each of their turns.
+
 ## Starting on unreal - 
 
 ### 26/11/2023 - creating a multi shot gun
