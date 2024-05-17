@@ -72,16 +72,22 @@ I haven’t written an entry for a while but I have improved a lot on my Unreal 
 
 ### 5/5/2024 - Creating the enemies and their spawner
 
+![script to print image](/Screenshots/enemy.png?raw=true)
 
 Today I learnt how to get the enemy to chase the player, I learnt this using tutorials on the internet along with some of my own attempts at trying things. The way this works is fairly simple, the enemy sees the player and chases. The problem I faced here, however, was that the enemy would chase indefinitely making the player get bombarded by a million enemies so I added the delay which made it so the enemy would only chase for a single tick meaning that when the player was out of sight it would go back to free roam.  
+
+![script to print image](/Screenshots/spawner.png?raw=true)
 
 I have created a spawner before but I have never created one that spawned multiple types of enemy, I figured that I would need to create an enemy class containing the enemy types which proved to be fairly simple as there was a blueprint that did exactly that. I configured a random chance for either class and began spawning them!
 
 ### 13/5/2024 - Teleport function
+
+![script to print image](/Screenshots/teleport.png?raw=true)
 
 Today I created a function that teleported the player back to the location that was stored before it was teleported away. I used a function for this as I needed to call it multiple times in different situations when it came to battling. I used casting here to allow for the use of variables in the ‘Character’ blueprint which let me use the ‘Location Before’ variable which stored what it said on the tin ready for me to teleport the player back. I did it this way because it let me keep the code short and simple and kept professional practice.
 
 
 ## Reflection - 17/5/2024
 
-Overall, I have learnt many things throughout my journey with programming this year. The games and projects that I have worked on have gotten better and better over the time I have spent coding and I am now familiar with a new language through my work in C++ but also I am familiar with scripting and using blueprints through my work in Unreal Engine 5. I have learnt a lot about coding games, particularly the logic behind the code and methods that use the logic to create code for the game to be playable. If I could go back and spend more time working, however, I would. I think a lot of my time was ill spent and the projects I have created could be more fleshed out and finished if I used my time more wisely. In the coming year I will strive to learn more about C++ especially as I believe knowing the basic code can help me with scripting in future and further me both in programming and in Unreal. I hope that my projects keep improving from here on out!
+Overall, I have learnt many things throughout my journey with programming this year. The games and projects that I have worked on have gotten better and better over the time I have spent coding and I am now familiar with a new language through my work in C++ but also I am familiar with scripting and using blueprints through my work in Unreal Engine 5.I do think I could have documented this all a lot better however I made it a point to only document noteworthy learning experiences and due to my history in coding I was already familiar with a lot of principles and was more so just reiterating what I already knew. I did miss a lot of time in the diary where I created many projects, however, and I do feel if I included them the timeline would make more sense. I have learnt a lot about coding games, particularly the logic behind the code and methods that use the logic to create code for the game to be playable. If I could go back and spend more time working, however, I would. I think a lot of my time was ill spent and the projects I have created could be more fleshed out and finished if I used my time more wisely. In the coming year I will strive to learn more about C++ especially as I believe knowing the basic code can help me with scripting in future and further me both in programming and in Unreal. I hope that my projects keep improving from here on out!
+
