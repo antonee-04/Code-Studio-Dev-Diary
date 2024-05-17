@@ -24,12 +24,14 @@ I decided to try my hand at creating a simple board game in C++, I have done thi
 
 ### 24/11/2023 - using vectors to set up a board in a function
 
-
+![script to print image](/Screenshots/vectors.png?raw=true)
 
 Here I transferred my knowledge of arrays in C# to create vectors as they act similarly, however when researching which one was best to store numerical coordinates on a board the vectors seemed to be a better option. I taught myself how to create the variable for the vectors by surmising that it would be the same way an array variable is created in C# which proved to be correct! The printBoard was fairly simple, I designed it so that it would create a board using for loops, one for the row and one for the column and spaces, this way the board was created automatically at the sizing I wanted without me having to manually write the board myself, it also makes it easier to isolate the different squares when I end up doing things like placing the X’s and O’s and checking if the spaces are filled.  
 
 
 ### 29/11/2023 - functions for playing the game
+
+![script to print image](/Screenshots/TicTacToe.png?raw=true)
 
 Today I made the functions that made playing the game actually possible, I started with the function that allowed the player to pick if they were X or O, I decided on doing this instead of assigning a value to the player to add more interaction to the game, i used a simple if else statement that assigned the opposite value to the computer and asked again if the player input something silly. This was quite simple to implement and was quite easy to use in the later parts of the code where I needed it. 
 
@@ -40,7 +42,11 @@ The computer opponent uses random numbers, which I learnt how to do a few weeks 
 
 ### 3/12/23 - creating a win and tie event
 
+![script to print image](/Screenshots/win.png?raw=true)
+
 Today I finished off my game by creating the function for winning and the function for tying, the tie function simply checks if the board is filled by checking each square and if one or more is still empty it returns false. I faced an issue with this as, to begin with, I created a function where the tie would happen when the game exceeded a certain amount of tries but that ended up causing problems when the player would input something incorrectly and end the game early. 
+
+![script to print image](/Screenshots/tictactoeing.png?raw=true)
 
 The checkWin function was fairly easy to implement, i simply coded a for loop to check each square and return true if there was a winner. I learnt that I could use player as a parameter which meant that I could code it so that whoever’s turn it was the ‘checkWin’ was checking for the corresponding symbol. I did this in conjunction with the ‘?’ operator which is essentially a short-hand for an if else statement that let me pass either ‘playerSymbol’ or ‘computerSymbol’ to the check when necessary. This was super useful as it let me perform the checks for each player without having to write code for checking the player and computer separately after each of their turns.
 
