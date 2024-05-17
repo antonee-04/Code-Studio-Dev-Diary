@@ -30,6 +30,7 @@ The first thing I was taught to do in unreal engine was how to modify the first 
 
 ### 28/11/2023 - triggering multi shot
 
+![script to print image](/Screenshots/multi-trigger.png?raw=true)
 
 Today I decided to work more on modifying the first person template. I created a trigger event for what I did last time. I worked completely on my own this time which proved to be more conducive to my learning just as I predicted.in my last entry. The thing that I think went well here was my knowledge of if statements as I figured there would be a way to use them in unreal engine which led me to finding the branch node, I used this in conjunction to a variable I created that checked whether or not the right mouse button was being clicked which is exactly the way I would have written it in normal code. The problem I faced with this was actually figuring out which blueprints to use as there is many to choose from and spending all my time searching through every single one would take forever so instead of doing that I did research on which blueprints would accomplish the tasks that I wanted such as searching for the existence of an if statement in Unreal Engine. Going forward I will keep working on learning more useful blueprints like the ‘Branch’ and I will try to develop the first person blueprint even more.
 
